@@ -4,36 +4,249 @@
   <title>Nisal Padukka</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content = "Nisal, Nisal Padukka, Software Developer, Toronto, Canada">
   <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+
+
+  <!-- bootstrap imports -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- font imports -->
+  <link href="http://fonts.cdnfonts.com/css/brooke-smith-script" rel="stylesheet">
+  <style>
+    @import url('http://fonts.cdnfonts.com/css/brooke-smith-script');
+  </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                
+                
+
+  <!-- common css -->
+  <link rel="stylesheet" href="css/common.css">
+
+  <!-- Home page css -->
+  <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Text 1</p>
-      <p>Text 1 body...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Text 2</p>
-      <p>Text 2 body</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Text 3</p>
-      <p>Text 3 body</p>
-    </div>
-  </div>
-</div>
+<!-- Header Start -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        Nisal Padukka
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#projectdiv">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<!-- Header End -->
 
+<main class = "site-main">
+
+  <section class="home-banner shadow">
+    <div class = "container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+          <div class = "image-holder">
+            <img src="assets/images/profile.png" class="avatar img-fluid shadow">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 banner-info">
+          <h1>I'm Nisal Padukka</h1>
+          <div class = "typed-out">Software Developer</div>
+          <br>
+          <form method="get" action="assets/cv/CV_Nisal_Padukka.pdf">
+           <button type="submit" class="btn btn-primary btn-download">Download Resume</button>
+
+          </form>
+          <br>
+          <a href="https://linkedin.com/in/nisalpadukka" class="fa fa-linkedin" style = "padding: 4px; text-decoration: none;"></a>
+          <a href="https://github.com/nisalpadukka" class="fa fa-github" style = "padding: 4px; text-decoration: none;"></a>
+          <a href="https://twitter.com/nisalpadukka" class="fa fa-twitter" style = "padding: 4px;  text-decoration: none;"></a>
+          <a href="https://facebook.com/nisalpadukka" class="fa fa-facebook" style = "padding: 4px; text-decoration: none;"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  About  -->
+  <section class="projects-area shadow">
+       <div class="container" id = "aboutme">
+           <div class="row">
+               <div class="col-lg-12 text-center projects-title">
+                   <h1 class="title-text">About Me</h1>
+                   <p class="para">
+                      A competent software engineer
+                      specialized in computer science and
+                      engineering seeking a position in IT
+                      industry.
+                      Possesses more than three years of
+                      experience in designing and developing
+                      software systems for the global capital
+                      market and retail barcode scanner
+                      industry.
+                      Experienced in working in production and
+                      R&D teams delivering high quality
+                      products under pressure. Trained in agile
+                      and waterfall methodology with a proven
+                      ability to adapt to any work environment
+                      easily.
+                      Possesses an innate desire to learn and
+                      explore new technologies and a passion to
+                      engage in challenging work in either
+                      independent or team-based work
+                      cultures.
+                   </p>
+               </div>
+           </div>
+
+           <div class = "row">
+                <div class="col-lg-6">
+                <h4>Experience</h4>
+                <ul>
+                <li><h5>Senior Software Engineer</h5></li>
+                ZeroBeta Inc Torronto, Canada (2022 March - Present)
+                <li><h5>Software Engineer II</h5></li>
+                Zebra Technologies Colombo, Sri Lanka (2021 April - 2022 January)
+                <li><h5>Senior Software Engineer</h5></li>
+                LSEG Technology Colombo, Sri Lanka (2020 March - 2020 November)
+                <li><h5>Software Engineer</h5></li>
+                LSEG Technology Colombo, Sri Lanka (2018 Feb - 2020 March)
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <h4>Education</h4>
+                <ul>
+                <li><h5>Graduate Certifice in Mobile Application Application Development</h5></li>
+                Georgian College, Canada (2022 January - Present)
+                <li><h5>BSc (Hons) Computer Science</h5></li>
+                University of Colombo, Sri Lanka (2014 - 2018)
+                <li><h5>BEng (Hons) Computer Systems Engineering</h5></li>
+                Curtin University, Australia (2015 - 2018)  
+                </ul>
+              </div>
+           </div>
+       </div>
+  </section> 
+
+  
+  <!--  Projects  -->
+   <section class="projects-area">
+       <div class="container">
+           <div id = "projectdiv" class="row">
+               <div class="col-lg-12 text-center projects-title">
+                   <h1 class="title-text">My Projects</h1>
+                   <p class="para">
+                       I have been developing Mobile Applicationns on both hybrid and native mobile platforms recently. Following are the latest projects that I worked with and I am and currently working on. 
+                   </p>
+               </div>
+           </div>
+           <div class="container projects-list">
+               <div class="row">
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                      <a  style="text-decoration: none" href="projects/shovel.html">
+                         <div class="projects">
+                             <div class="projects-img text-center py-4">
+                                 <img src="assets/images/shovel/shovl_new_logo.png" alt="projects-1" height="60px">
+                             </div>
+                             <div class="card-body text-center">
+                                 <h5 class="card-title font-roboto">Shovl {React-Native}</h5>
+                                 <p class="card-text text-secondary">
+                                  Shovl is a meeting place for customers and service providers that provide snow clearing service.
+                                 </p>
+                             </div>
+                         </div>
+                      </a>   
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a  style="text-decoration: none" href="projects/farmington.html">
+                       <div class="projects">
+                           <div class="projects-img text-center py-4">
+                               <img src="assets/images/farmington/logo.png" alt="projects-2" height="60px">
+                           </div>
+                           <div class="card-body text-center">
+                               <h5 class="card-title font-roboto">Farmington {Kotlin}</h5>
+                               <p class="card-text text-secondary">
+                                   Farmington improve efficiency of Crop production, management and distribuition using digital technology
+                               </p>
+                           </div>
+                       </div>
+                     </a>
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a  style="text-decoration: none" href="projects/expense-tracker.html">
+                       <div class="projects">
+                           <div class="projects-img text-center py-4">
+                               <img src="assets/images/expense-tracker/logo.png" alt="projects-3"  height="60px">
+                           </div>
+                           <div class="card-body text-center">
+                               <h5 class="card-title font-roboto">Expense Tracker {IOS}</h5>
+                               <p class="card-text text-secondary">
+                                   Manage your finances with the Expenses Tracker. You can add all the daily expenses, your income and see reports.
+                               </p>
+                           </div>
+                       </div>
+                     </a>
+                   </div>
+                   <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a  style="text-decoration: none" href="projects/tic-tac-toe.html">
+                       <div class="projects">
+                           <div class="projects-img text-center py-4">
+                               <img src="assets/images/tic-tac-toe/logo.png" alt="projects-3"  height="60px">
+                           </div>
+                           <div class="card-body text-center">
+                               <h5 class="card-title font-roboto">Tic-Tac-Toe {Android}</h5>
+                               <p class="card-text text-secondary">
+                                   Remember the the classic tic-tac-toe game you played in your childhood. Now it's available on your mobile. 
+                               </p>
+                           </div>
+                       </div>
+                     </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section> 
+
+  <!--  Contact  -->
+  <section class="projects-area shadow">
+       <div id = "contact" class="container">
+           <div class="row text-center">
+               <div class="col-lg-4"><i class="bi bi-telephone" style="padding: 10px;"></i><a href="tel:+18254490084">+18254490084</a></div>
+               <div class="col-lg-4"><i class="bi bi-envelope" style="padding: 10px;"></i><a href="mailto:nisalpadukka@gmail.com">nisalpadukka@gmail.com</a></div>
+               <div class="col-lg-4"><i class="bi bi-house-fill" style="padding: 10px;"></i>15, Leora Court, RichmondHill, ON</div>
+           </div>
+       </div>
+  </section>
+
+</main>  
 </body>
+<footer>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://nisal.xyz/">nisal.xyz</a>
+  </div>
+</footer>
 </html>

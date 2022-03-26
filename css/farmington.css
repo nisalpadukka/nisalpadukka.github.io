@@ -1,0 +1,118 @@
+/* Home Page CSS */
+
+
+/* Shovel Banner */
+.home-banner{
+  height: 60vh;
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/images/farmington/background.jpeg');
+  opacity: 1;
+}
+
+.image-holder{
+  align-self: center;
+  padding-top: 12%;
+
+}
+
+.avatar {
+  border-radius: 10%;
+  max-height:45vh;
+
+}
+
+.logo {
+  border-radius: 10%;
+  max-height:10vh;
+
+}
+
+.banner-info{
+  padding-top: 12%;
+  padding-left: 20% ;
+}
+
+.banner-info h1{
+  font-weight: 700;
+  color: #00994d;
+  text-shadow: 2px 2px #ffffff;
+
+}
+
+.banner-info h2{
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* Projects */ 
+.projects-area{
+    padding: 7rem 2rem;
+}
+
+.projects-area .projects-title{
+    padding: 0 14rem;
+}
+
+.projects-area .projects-title h1{
+    font-size: 35px;
+}
+
+
+.work {
+  border-radius: 10%;
+
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.design {
+  border-radius: 10%;
+  max-height:20vh;
+
+}
+
+.color-scheme {
+  max-height:10vh;
+
+}
+
+.box {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+  background: #C2E8C7;
+}
+
+.cian {
+  background: #00994d;
+}
+
+.light-blue {
+  background: #cccccc;
+}
+
+
+
+/* End Projects */ 
+

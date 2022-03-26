@@ -1,0 +1,78 @@
+/* Home Page CSS */
+
+
+/* Main Banner */
+.home-banner{
+  height: 60vh;
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-holder{
+  align-self: center;
+  padding-top: 12%;
+
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.banner-info{
+  padding-top: 12%;
+}
+
+.banner-info h1{
+  font-weight: 700;
+}
+
+.btn-download {
+  background: #1976d2;
+}
+
+.banner-info .typed-out{
+  overflow: hidden;
+  border-right: .15em solid #1976d2;
+  white-space: nowrap;
+  animation: 
+    typing 1s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* Projects */ 
+.projects-area{
+    padding: 7rem 2rem;
+}
+
+.projects-area .projects-title{
+    padding: 0 14rem;
+}
+
+.projects-area .projects-title h1{
+    font-size: 35px;
+}
+
+.projects-area .projects{
+    background: #e6f2ff;
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.projects-area .projects:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+
+/* End Projects */ 
+
