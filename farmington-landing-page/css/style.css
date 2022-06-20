@@ -1,0 +1,40 @@
+html,
+body{
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gradient-bg{
+   background: linear-gradient(140deg, #009933 0%, #00ff99 100%);
+}
+
+.gradient-bg-grey{
+   background: linear-gradient(140deg, #DFDFDE 0%, #DFDFDE 100%);
+}
+
+
+.main-header{
+  margin-top:  4rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.icon{
+  color: white;
+  height: 5rem;
+  width:  5rem;
+  font-size: 1.7rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-area {
+    padding-bottom: 3rem;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
